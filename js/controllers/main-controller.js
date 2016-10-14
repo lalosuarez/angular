@@ -1,5 +1,5 @@
 angular
   .module('app')
-  .controller('MainCtrl', ['$scope', '$location', function($scope) {
-    $scope.title = "Main content";
+  .controller('MainCtrl', ['$scope', 'HelloService', function($scope, HelloService) {
+    $scope.hello = HelloService.sayHello();
   }]);
