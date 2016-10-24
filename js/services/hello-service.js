@@ -4,7 +4,7 @@ angular
     var service = {};
 
     service.sayHello = function() {
-      return "Hello there!";
+      return "¡Hello there!";
     }
 
     return service;

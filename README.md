@@ -1,2 +1,2 @@
-# angular
-Angular basic skeleton
+# AngularJS
+This is an AngularJS basic application.
