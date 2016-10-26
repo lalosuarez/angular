@@ -1,6 +1,7 @@
 angular
   .module('app')
-  .controller('LoginCtrl', ['$scope', function($scope) {
+  .controller('LoginCtrl', ['$scope',
+  function($scope) {
 
     $scope.user = {
       "username": null,
@@ -11,4 +12,5 @@ angular
       console.log($scope.user);
     }
 
+    //console.log(AppInfoValue);
   }]);
