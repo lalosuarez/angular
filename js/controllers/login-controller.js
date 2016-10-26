@@ -11,6 +11,4 @@ angular
     $scope.login = function() {
       console.log($scope.user);
     }
-
-    //console.log(AppInfoValue);
   }]);
